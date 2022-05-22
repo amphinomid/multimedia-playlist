@@ -6,12 +6,12 @@ var winter_tl = gsap.timeline( { defaults: { duration: 16 },
         scrub: 1,
         pin: true,
         start: 'top top',
-        end: '+=2880px'
+        end: '+=3960px'
     }
 })
 .to('.winter-songs', {
     motionPath: {
-        path: [ {x: -2880 + document.documentElement.clientWidth + 150, y: 0} ]
+        path: [ {x: -3960 + document.documentElement.clientWidth + 150, y: 0} ]
     },
     duration: 13,
     ease: 'power3.inOut'
@@ -44,6 +44,7 @@ var winter_tl = gsap.timeline( { defaults: { duration: 16 },
 .to('.winter-6', { opacity: 1, duration: 0.5 }, '5.25')
 .to('.winter-background', { background: "linear-gradient(90deg, hsla(0, 0%, 26%, 1) 0%, hsla(0, 0%, 33%, 1) 50%, hsla(0, 48%, 38%, 1) 100%)", duration: 1.25 }, '5.25')
 .to('.winter-animation', { background: "#000000", duration: 1 }, '6')
+.to('.w4', { color: '#fff', duration: 0.5 }, '6')
 .to('.winter-6', { opacity: 0, duration: 1.25 }, '6')
 .to('.winter-7', { opacity: 1, duration: 0.5 }, '6')
 .to('.winter-background', { background: "linear-gradient(90deg, hsla(0, 0%, 21%, 1) 0%, hsla(0, 0%, 25%, 1) 50%, hsla(0, 58%, 15%, 1) 100%)", duration: 1.25 }, '6')
@@ -56,12 +57,12 @@ var spring_tl = gsap.timeline( { defaults: { duration: 16 },
         scrub: 1,
         pin: true,
         start: 'top top',
-        end: '+=2730px'
+        end: '+=3810px'
     }
 })
 .to('.spring-songs', {
     motionPath: {
-        path: [ {x: -2730 + document.documentElement.clientWidth, y: 0} ]
+        path: [ {x: -3810 + document.documentElement.clientWidth, y: 0} ]
     },
     duration: 13,
     ease: 'power3.inOut'
@@ -93,6 +94,7 @@ var spring_tl = gsap.timeline( { defaults: { duration: 16 },
 .to('.spring-background', { background: "linear-gradient(90deg, hsla(222, 40%, 50%, 1) 0%, hsla(214, 39%, 53%, 1) 50%, hsla(264, 36%, 43%, 1) 100%)", duration: 1.25 }, '5.25')
 .to('.spring-6', { opacity: 0, duration: 1.25 }, '6')
 .to('.spring-animation', { background: "#000000", duration: 1 }, '6')
+.to('.s5', { color: '#fff', duration: 0.5 }, '6')
 .to('.spring-background', { background: "linear-gradient(90deg, hsla(222, 34%, 25%, 1) 0%, hsla(213, 30%, 28%, 1) 50%, hsla(264, 30%, 23%, 1) 100%)", duration: 1.25 }, '6')
 .to('.spring-background', { background: "linear-gradient(90deg, hsla(222, 20%, 13%, 1) 0%, hsla(212, 23%, 14%, 1) 50%, hsla(265, 38%, 6%, 1) 100%)", duration: 1.25 }, '7.25')
 .to('.spring-background', { background: "linear-gradient(0deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 1) 50%, hsla(0, 0%, 0%, 1) 100%)", duration: 5.5 }, '8.5')

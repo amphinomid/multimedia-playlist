@@ -90,7 +90,7 @@ a:link, a:visited, a:hover, a:active {
     grid-column: 4;
     grid-row: 1 / 3;
     align-self: center;
-    justify-self: center;
+    justify-self: start;
 }
 
 .w5, .s5 {

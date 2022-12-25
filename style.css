@@ -177,10 +177,17 @@ a:link, a:visited, a:hover, a:active {
     justify-self: center;
 }
 
-.w13, .s13 {
+.w13 {
     grid-column: 13;
     grid-row: 1 / 3;
     align-self: center;
+    justify-self: center;
+}
+
+.s13 {
+    grid-column: 13;
+    grid-row: 1 / 3;
+    align-self: start;
     justify-self: center;
 }
 

@@ -144,8 +144,8 @@ a:link, a:visited, a:hover, a:active {
 
 .s9 {
     grid-column: 9;
-    grid-row: 1 / 2;
-    align-self: center;
+    grid-row: 1 / 3;
+    align-self: start;
     justify-self: center;
 }
 

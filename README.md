@@ -8,3 +8,6 @@ The final version combines lyrics and quotes, embedded Spotify players and graph
 
 Part 2 [here](https://github.com/fibanneacci/multimedia-playlist-cont).
 
+What it looks like:
+![spring — blue-purple sky over a sketch of Little Rock and some songs](ss0.png)
+![autumn](ss1.png)
